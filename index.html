@@ -3,72 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="html, css,js, cv" />
-    <meta name="description" content="пыхчу кручу" />
-    <title>Cv</title>
-    <link rel="shortcut icon" href="nekit.png" />
+    <meta name="description" content="my blog" />
+    <meta name="keywords" content="let's talk about me" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>cv</title>
   </head>
   <body>
-    <img src="photo_2022-12-27_15-17-03.jpg" width="150" alt="ebuchka" />
-    <h1>Vitaly Antonov</h1>
-    <p><strong>студент</strong>, заканчиваю <em>1 курс</em> унивеситета СГУ</p>
-    <p>
-      <a href="https://google.com/search?q" target="_blank">tg</a> |
-      <a href="https://vk.com/vol1ng" target="_blank">vk</a>
-    </p>
-    <h3>Чем хочу заниматься</h3>
-    <ol>
-      <li>Английский</li>
-      <li>Прога</li>
-      <li>Спортик</li>
-    </ol>
-    <h3>Опыт</h3>
-    <table>
-      <thead>
-        <th>Название</th>
-        <th>Должность</th>
-        <th>Год</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Лагерь</td>
-          <td>Вожатый</td>
-          <td>2018</td>
-        </tr>
-        <tr>
-          <td>Школа</td>
-          <td>Поливочник</td>
-          <td>каждый день</td>
-        </tr>
-        <tr>
-          <td>Халтура</td>
-          <td>ceo</td>
-          <td>всегда</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3>Связь</h3>
-    <form action="">
-      <div>
-        <label for="name">Имя</label>
-        <input type="text" id="name" placeholder="Введите имя" />
+    <div class="container">
+      <img
+        src="https://sun9-51.userapi.com/c845521/v845521444/12564a/xM0pPdmQUCc.jpg"
+        alt="avatar"
+      />
+      <h1>Arsen Voling</h1>
+      <p>Учусь на <strong>втором</strong> курсе университета СГУ</p>
+      <p>Нравится <em>программировать</em>, хочу на этом зарабатывать</p>
+      <p>Список соцсетей:</p>
+      <p>
+        <a href="https://vk.com/al_feed.php" target="_blank">vk </a>
+        |
+        <a href="https://web.telegram.org/k/" target="_blank">tg</a>
+      </p>
+      <div class="card hobbies">
+        <p>Hobbies:</p>
+        <ol>
+          <li>Походы в бар</li>
+          <li>Просмотр аниме</li>
+          <li>Изучение английского языка</li>
+        </ol>
       </div>
-      <div>
-        <label for="email">почта</label>
-        <input type="email" id="email" placeholder="Введите почту" />
+      <div class="card table">
+        <table>
+          <thead>
+            <tr>
+              <th>Возраст</th>
+              <th>Любимое хобби</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10</td>
+              <td>Футбол</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Компьютерные игры</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>Просмотр кино</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>Просмотр аниме</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>Программирование</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div>
-        <label for="message">сообщение</label>
-        <br />
-        <textarea
-          name=""
-          id="message"
-          cols="25"
-          rows="5"
-          placeholder="Ваше сообщение..."
-        ></textarea>
-      </div>
-      <input type="submit" value="Отправка" />
-    </form>
+      <h1>Связь</h1>
+      <form>
+        <div class="div">
+          <div>
+            <label class="block" for="name">Ваше имя</label>
+            <input
+              class="block"
+              type="text"
+              id="name"
+              placeholder="Введите имя"
+            />
+          </div>
+          <div class="inline">
+            <label class="block" for="email">Ваш email</label>
+            <input
+              class="block"
+              type="email"
+              id="email"
+              placeholder="введите email"
+            />
+          </div>
+        </div>
+        <div>
+          <label for="message">Ваше сообщение</label>
+          <br />
+          <textarea
+            id="message"
+            placeholder="Написать"
+            cols="20"
+            rows="5"
+          ></textarea>
+        </div>
+        <div>
+          <input type="submit" class="btn" value="Отправить!" />
+        </div>
+      </form>
+    </div>
   </body>
 </html>

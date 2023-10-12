@@ -1,0 +1,72 @@
+body {
+  font-family: "Potta One", cursive;
+  font-size: 18px;
+  background-color: #f5f5dc;
+  color: #5f9ea0;
+}
+@media (max-width: 768px) {
+  .container {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+.card {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 800px;
+}
+.hobbies {
+  background-color: lightgoldenrodyellow;
+}
+.table {
+  background-color: rgb(232, 221, 223);
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+img {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+ol li:nth-child(odd):hover {
+  background-color: green;
+}
+td:nth-child(1) {
+  background-color: #fffeee;
+  text-align: center;
+}
+td:nth-child(2) {
+  text-align: center;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.div {
+  display: flex;
+}
+div {
+  margin-right: 30px;
+}
